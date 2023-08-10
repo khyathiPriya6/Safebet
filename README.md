@@ -11,6 +11,8 @@ Each safe has a missing mirror, which prevents the laser beam from traveling suc
 
 Your job is to determine if particular safes are actually secure. A secure safe does not open right away without inserting a mirror, and there is at least one valid location and orientation for the missing mirror. There may indeed be multiple such locations and orientations.
 
+<a href="URL_REDIRECT" target="blank"><img align="center" src="https://github.com/khyathiPriya6/Safebet/blob/main/Screenshot%20from%202023-08-10%2020-45-23.png?raw=true" height="100" /></a>
+
 # Input
 
 Each test case describes a single safe and starts with a line containing four integer numbers r, c, m, and n (1≤r,c< 1000 000 and 0 <m, n < 200 000). The mechanism's grid has r rows and e columns. Each of the next m lines contains two integer numbers r; and c, (1 ≤r; rand 1<< c) specifying that there is a/mirror in row r, column c. The following n lines specify the positions of the mirrors in the same way. The m+n positions of the mirrors are pairwise distinct.
@@ -24,3 +26,5 @@ For each test case, display its case number followed by:
 2. k r c if the safe does not open without inserting a mirror, there are exactly k positions where inserting a mirror opens the safe, and (r, c) is the lexicographically smallest such row, column position. A position where both a/ and a mirror open the safe counts just once.
 
 3. impossible if the safe cannot be opened with or without inserting a mirror.
+
+<a  target="blank"><img align="center" src="https://github.com/khyathiPriya6/Safebet/blob/main/Screenshot%20from%202023-08-10%2021-02-07.png?raw=true" height="100" /></a>
